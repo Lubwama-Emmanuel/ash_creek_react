@@ -1,0 +1,27 @@
+.hero{
+    background: url(../../public/hero.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: bottom 5% right 0%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero button{
+    background-color: #00000070;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+}
+.hero button.first {
+    font-size: 32px;
+}
+.hero button.second {
+    font-size: 23px;
+    margin-top: 15px;
+}
