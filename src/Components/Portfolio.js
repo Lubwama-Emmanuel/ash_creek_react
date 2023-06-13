@@ -8,8 +8,8 @@ const Company = (props) => {
         <img src={props.image} alt="" class={styles.company_logo} />
       </div>
       <div className={styles.textsect}>
-        <h5>{props.title}</h5>
-        <a href={props.link}>{props.link}</a>
+        <h5>{props.title.toUpperCase()}</h5>
+        <a href={props.link}>{props.link.toLowerCase()}</a>
         <p>{props.desc}</p>
       </div>
     </section>

@@ -1,20 +1,3 @@
-// import AC from "../public/investments/7AC_Logo-150x150-1 (1).png";
-// import aw from "../public/investments/aw.jpg";
-// import blusap from "../public/investments/blusap.png";
-// import cyber from "../public/investments/cyber.png";
-// import gimbal from "../public/investments/gimbal.jpg";
-// import jalee from "../public/investments/jalee.png";
-// import klickly from "../public/investments/klickly.jpg";
-// import kyrus from "../public/investments/kyrus-768x300.jpg";
-// import nano from "../public/investments/nano.png";
-// import perch from "../public/investments/perch-logo-768x274.png";
-// import queralt from "../public/investments/queralt.png";
-// import safe from "../public/investments/safe.png";
-// import swaponz from "../public/investments/swaponz.jpg";
-// import thirstie from "../public/investments/thirstie.jpg";
-// import tsu from "../public/investments/tsu.png";
-// import zz from "../public/investments/zz.jpg";
-
 const data = [
   {
     id: 1,
@@ -46,31 +29,17 @@ const data = [
   },
   {
     id: 5,
-    image: "investments/gimbal.jpg",
-    title: "GIMBAL",
-    desc: "Gimbal permits advertisers, publishers and resellers to monetize their audiences on mobile with scale and accuracy.",
-    link: "HTTPS://GIMBAL.COM",
-  },
-  {
-    id: 6,
-    image: "investments/jalee.png",
-    title: "JA LEE",
-    desc: "JA Lee upgrades property infrastructure for wireless tele-data and improved person-to-person communications in commercial buildings, stadiums and convention centers..",
-    link: "HTTPS://WWW.JALEE.US",
+    image: "investments/infillion.png",
+    title: "Infillion, Inc.",
+    desc: "Company incorporated video, and OOH advertising.  The platform incorporates the sophistication of precision targeting with premium inventory, coupled with agile creative and actionable insights. It is a product built to deliver Return on Ad Spend with simplicity and scale.",
+    link: "https://infillion.com/ ",
   },
   {
     id: 7,
     image: "investments/klickly.jpg",
-    title: "KLICKLY.COM LLC",
-    desc: "Klickly lets you buy what you want on any device including your mobile phone, when you see it. No navigating away from your content. No annoying shopping carts.",
-    link: "WWW.KLICKLY.COM",
-  },
-  {
-    id: 8,
-    image: "investments/kyrus-768x300.jpg",
-    title: "KYRUS MOBILE LLC",
-    desc: "Kyrus Mobile’s technology prevents distracted driving by employees using cell phones while driving to reduce risk and minimize company liability.",
-    link: "WWW.KYRUSMOBILE.COM",
+    title: "KLICKLY",
+    desc: "Klickly’s proprietary direct-to-consumer/pay-for-performance technology allows brands to prioritize across channels, and create in-add purchases in places where it has historically been most difficult to reach new customers in the digital world.",
+    link: "https://klickly.com/",
   },
   {
     id: 9,
@@ -87,18 +56,11 @@ const data = [
     link: "HTTPS://WWW.PINGLOUD.COM",
   },
   {
-    id: 11,
-    image: "investments/queralt.png",
-    title: "QUERALT INC",
-    desc: "Queralt powers intelligent real-time tracking, safety and security for Homeland Security, Agilent Technologies Matheson Tri-Gas and many more businesses.",
-    link: "HTTP://WWW.QUERALTINC.COM",
-  },
-  {
     id: 12,
     image: "investments/safe.png",
-    title: "SAFE",
-    desc: "SAFE is a Modern Healthcare Company leveraging technology and innovative marketing techniques to disrupt the spread of chronic infections and facilitate care for those afflicted. Their mission is to create healthcare systems that empower patients and enable providers.",
-    link: "HTTPS://SAFEHEALTH.ME",
+    title: "The Safe Group",
+    desc: "Using their proprietary technology, Safe Health Group, Inc. and the Mayo Clinic have launched a platform to reduce the cost of care in commodity diagnostics at scale. The platform enables rapid implementations of custom digital health applications which combine digital provider services, AI-based care automation and remote point-of-care diagnostics.",
+    link: "https://safehealth.me/ ",
   },
   {
     id: 13,
@@ -128,6 +90,90 @@ const data = [
     desc: "Zone Flow focuses on the development of reactor technologies to improve the efficiency of the production of hydrogen and syngas by the steam methane reforming (SMR) process. SMR is the dominant process worldwide for the production of hydrogen and its derivatives.",
     link: "WWW.ZONEFLOWTECH.COM",
   },
+  {
+    id: 17,
+    image: "investments/unicode.png",
+    title: "Ucode Programming Academy",
+    desc: "A complete solution for children learning a naturally recognized curriculum, exercises and quizzes that also facilitates numbers literacy and analytical thinking. In person or online young coders learn Scratch, Python, Java, HTML and SQL.",
+    link: "https://www.ucode.com/",
+  },
+  {
+    id: 18,
+    image: "investments/foundation.png",
+    title: "Foundation CREF",
+    desc: "The Foundation CREF platform gives the investor/developer/builder the tools they need to generate superior profit margins on any property they purchase through the Foundation CREF platform. The platform can provide capital -single family loans up to $5mm amd multifamily bridge loans up to $30mm.",
+    link: "https://foundationcref.com/",
+  },
+  {
+    id: 19,
+    image: "investments/xxvi.png",
+    title: "XXII",
+    desc: "XII acquired the Ash Creek investment GVB BioPharma. 22nd Century is an agricultural biotechnology and intellectual-property company. The company is focused on utilizing advanced alkaloid plant techniques to improve health and wellness through tobacco harm reduction, reduced nicotine tobacco, help/cannibals and hops.",
+    link: "https://xxiicentury.com/",
+  },
+  {
+    id: 20,
+    image: "investments/infinity.png",
+    title: "Infinite reality",
+    desc: "The Infinite Reality is a metaverse company and social media platform. Not only are brands now able to connect directly with consumers in an immersive and engaging world, but users can capture value by creating and sharing original content from all over the world. The Infinite Reality community includes celebrities, athletes, and artists who work side-by-side with the world’s most recognized brands and governments to create a full suite of metaverse experiences and capabilities. ",
+    link: "https://theinfinitereality.com/ ",
+  },
+  {
+    id: 21,
+    image: "investments/mussel.png",
+    title: "Mussel Polymers",
+    desc: "Adhesion in wet environments has been a fundamental challenge, impacting everything from submarines to domestic fish tanks. Mussel has developed a solution based on biomimicry of mussels for industrial coatings, Dept of Defense needs, coral reefs , electronics and dental applications.",
+    link: "https://www.musselpolymers.com/",
+  },
+  {
+    id: 22,
+    image: "investments/toledo.png",
+    title: "Toledo Solar, Inc",
+    desc: "The state-of-the-art manufacturer and distributor of cadmium Telluride (“CdTe”) thin-film solar panels. Manufactures solar panels for home roofs and windows using vapor disposition technology.",
+    link: "https://toledo-solar.com/ ",
+  },
+  {
+    id: 23,
+    image: "investments/raydiant.png",
+    title: "Raydiant",
+    desc: "Raydiant acquired our investment PERCH Interactive.  Raydiant is a leading in-location digital experience platform with over 200,000 devices and customers like McDonald’s, First Bank, Harvard University and Thomson Reuters.",
+    link: "(https://www.raydiant.com/) ",
+  },
+  {
+    id: 24,
+    image: "investments/ion.png",
+    title: "Ion Pacific",
+    desc: "Ion pacific is a venture capital fund with a focus on the broadly defined technology community providing creative liquidity solutions to GP's, LP's and special situations – with a local presence in the US, Hong Kong, Europe and Israel.",
+    link: "https://ionpacific.com/ ",
+  },
+  {
+    id: 25,
+    image: "investments/diamond.png",
+    title: "Diamond Standard, Inc.",
+    desc: "Diamond trading firm that crafts gemstones into a commodity – coins, bars and funds. An entirely new commodity for exchange, that is regulated by the Bermuda Monetary Authority and has won approval to list futures linked to its products on CME Group’s Chicago Mercantile exchange, along with options traded via MIAX.",
+    link: "https://www.diamondstandard.co/ ",
+  },
+  {
+    id: 26,
+    image: "investments/asenda.png",
+    title: "Asenda Health",
+    desc: "Acenda Health is determined to build the only connected platform in the chronic care and postacute care industry, where providers can collect, exchange, analyze and act on patient data in real time. In doing so, the company’s technology and infrastructure will have a large disruptive impact on the industry, leading to lower costs (for insurers, state Medicaid and Medicare), reduced financial risk for providers, and ultimately improve patient outcomes.",
+    link: "https://acendahealth.org/ ",
+  },
+  {
+    id: 27,
+    image: "investments/accure.png",
+    title: "Accure Acne, Inc.",
+    desc: "Accure has developed (and the FDA has approved) a laser-based tool that isolates destruction of the subcutaneous gland with specific wavelengths – but without touching nearby tissues or glands. This provides long-term relief for acne sufferers.",
+    link: "https://www.accureacne.com/ ",
+  },
+  // {
+  //   id: 28,
+  //   image: "investments/foundation.png",
+  //   title: "",
+  //   desc: "",
+  //   link: "",
+  // },
 ];
 
 export default data;

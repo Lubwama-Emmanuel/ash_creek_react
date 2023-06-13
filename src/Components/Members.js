@@ -1,22 +1,43 @@
 import styles from "./Members.module.css";
-import Brain from "../Brian-LinkedIn-picture.jpeg";
+import data from "../../src/membersList";
+import { useState } from "react";
 
-const Member = () => {
+const ReadMore = ({ v }) => {
+  const text = v;
+  console.log("first one", text.length);
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+
+  if (text) {
+    return (
+      <p className={styles.text}>
+        {isReadMore ? text.slice(0, 215) : text}
+        <span
+          onClick={toggleReadMore}
+          className={styles.read_or_hide}
+          id={styles.read}
+        >
+          {isReadMore ? "...Read More" : " Show Less"}
+        </span>
+      </p>
+    );
+  }
+};
+
+const Member = (props) => {
   return (
     <div className={styles.member}>
-      <img src={Brain} alt="Brain" className={styles.member_image} />
+      <img src={props.image} alt={props.name} className={styles.member_image} />
       <div className={styles.member_info}>
         <p className={styles.member_name}>
-          <strong>BRIAN ANDREOLI</strong>
+          <strong>{props.name}</strong>
         </p>
         <p className={styles.member_position}>MANAGING DIRECTOR</p>
       </div>
-      <p>
-        International tax partner with three multinational firms; tax principal
-        with three of the big four accounting firms: corporate tax experience
-        are two major pharmaceutical companies. Extensive experience in
-        litigation, mergers and acquisitions, restructuring and general business
-        matters. Etcetera
+      <p className={styles.member_desc}>
+        <ReadMore v={props.desc} />
       </p>
     </div>
   );
@@ -24,17 +45,12 @@ const Member = () => {
 
 const Members = () => {
   return (
-    <section>
-      <h2>Our Members</h2>
+    <section className={styles.members_con}>
+      <h2 style={{ marginBottom: "20px", fontSize: "40px" }}>Our Members</h2>
       <div className={styles.members}>
-        <Member />
-        <Member />
-        <Member />
-        <Member />
-        <Member />
-        <Member />
-        <Member />
-        <Member />
+        {data.map((el) => (
+          <Member image={el.image} name={el.name} desc={el.desc} />
+        ))}
       </div>
     </section>
   );

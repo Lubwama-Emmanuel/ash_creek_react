@@ -1,3 +1,7 @@
+.members_con {
+  margin: 90px;
+}
+
 .members {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -17,4 +21,27 @@
 
 .member_info {
   margin: 10px auto;
+}
+
+.member_desc {
+  /* font-size: 17px; */
+  line-height: 1.5;
+}
+
+.text {
+  display: inline;
+  width: 100%;
+}
+
+.read-or-hide {
+  color: rgb(88, 1, 1);
+  cursor: pointer;
+}
+
+#read {
+  color: rgb(174, 174, 221);
+}
+
+#read:hover {
+  text-decoration: underline;
 }
