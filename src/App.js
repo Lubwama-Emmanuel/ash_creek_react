@@ -7,8 +7,10 @@ import Merchant from "./Components/Merchant";
 import Portfolio from "./Components/Portfolio";
 import WhoAreWe from "./Components/WhoAreWe";
 import Members from "./Components/Members";
+import Contact from "./Components/Contact";
 
 import CookieConsent from "react-cookie-consent";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Portfolio />
       <WhoAreWe />
       <Members />
+      <Contact />
+      <Footer />
       <CookieConsent debug={true}>This site uses cookies.</CookieConsent>
     </div>
   );

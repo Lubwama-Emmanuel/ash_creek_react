@@ -1,0 +1,41 @@
+.contact_con {
+  /* width: 1000px; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  margin: 30px;
+}
+
+.company_form {
+  width: 500px;
+}
+
+.company_form input {
+  width: 100%;
+  background-color: rgb(238, 235, 235);
+  border: none;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 8px 0;
+}
+
+#message_input {
+  padding: 80px;
+}
+
+.send_btn {
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: rgb(72, 72, 77);
+  color: white;
+  font-size: 16px;
+}
+
+.send_btn:hover {
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid rgb(72, 72, 77);
+  color: rgb(72, 72, 77);
+}
