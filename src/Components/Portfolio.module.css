@@ -1,0 +1,49 @@
+.heading {
+  color: #000;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.imagesect {
+  width: 180px;
+  height: 80px;
+  padding-top: 15px;
+}
+.textsect {
+  padding-top: 55px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 800px;
+  height: 200px;
+  text-align: left;
+}
+.textsect h5 {
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.textsect a {
+  font-size: 16px;
+  font-weight: 500;
+}
+.textsect p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+  color: #050505;
+}
+
+.company_logo {
+  width: 100%;
+}
