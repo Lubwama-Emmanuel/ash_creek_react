@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 50px;
+  padding: 50px 15px;
+  margin-bottom: 38px;
 }
 
 .text_container2 {

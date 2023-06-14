@@ -3,7 +3,7 @@ import businessModel from "../businessModel.jpg";
 
 const BusinessModel = () => {
   return (
-    <div className={styles.image_container}>
+    <section className={styles.image_container}>
       <img src={businessModel} alt="business people agreeing" />
       <div className={styles.text_container2}>
         <h3>Business development </h3>
@@ -17,7 +17,7 @@ const BusinessModel = () => {
           introductions and/or to follow through to enterprise sales.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

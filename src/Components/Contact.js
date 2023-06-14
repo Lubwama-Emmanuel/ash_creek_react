@@ -40,7 +40,7 @@ const Information = () => {
   return (
     <div className={styles.company_info}>
       <h2>
-        Tell us a little bit about <br></br> you and you company.
+        Tell us a little bit about <br></br> you and your company.
       </h2>
       <p>
         And we will get right back to you.<br></br>

@@ -35,6 +35,7 @@ function App() {
         buttonStyle={{
           padding: "12px",
           fontSize: "16px",
+          backgroundColor: "#3CB371",
         }}
         declineButtonStyle={{
           padding: "12px",
