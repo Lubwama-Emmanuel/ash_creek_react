@@ -23,14 +23,10 @@
   margin: 10px auto;
 }
 
-.member_desc {
-  /* font-size: 17px; */
-  line-height: 1.5;
-}
-
 .text {
   display: inline;
   width: 100%;
+  line-height: 25px;
 }
 
 .read-or-hide {

@@ -26,7 +26,28 @@ function App() {
       <Members />
       <Contact />
       <Footer />
-      <CookieConsent debug={true}>This site uses cookies.</CookieConsent>
+      <CookieConsent
+        debug={true}
+        enableDeclineButton
+        flipButtons
+        buttonText="Accept"
+        declineButtonText="Decline"
+        buttonStyle={{
+          padding: "12px",
+          fontSize: "16px",
+        }}
+        declineButtonStyle={{
+          padding: "12px",
+          fontSize: "16px",
+        }}
+        style={{
+          opacity: "0.9",
+          // backgroundColor: "",
+        }}
+        expires={30}
+      >
+        This site uses cookies for Enhanced experience.
+      </CookieConsent>
     </div>
   );
 }

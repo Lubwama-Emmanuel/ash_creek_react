@@ -2,7 +2,7 @@ import styles from "./Investments.module.css";
 
 const Investments = () => {
   return (
-    <section className={styles.third}>
+    <section className={styles.third} id="investment">
       <div className={styles.text_container3}>
         <h3> Investments </h3>
         <p>

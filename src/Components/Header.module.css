@@ -27,10 +27,11 @@
   text-decoration: none;
   font-size: 16px;
   color: #1a1a1a;
+  line-height: 20px;
   transition: 0.3s, ease;
 }
 
-.listLink:hover,
+/* .listLink:hover,
 :active {
   color: #3cb371;
-}
+} */

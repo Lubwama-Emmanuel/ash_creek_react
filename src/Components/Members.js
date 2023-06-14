@@ -4,7 +4,6 @@ import { useState } from "react";
 
 const ReadMore = ({ v }) => {
   const text = v;
-  console.log("first one", text.length);
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
@@ -36,9 +35,7 @@ const Member = (props) => {
         </p>
         <p className={styles.member_position}>MANAGING DIRECTOR</p>
       </div>
-      <p className={styles.member_desc}>
-        <ReadMore v={props.desc} />
-      </p>
+      <ReadMore v={props.desc} />
     </div>
   );
 };
@@ -49,7 +46,7 @@ const Members = () => {
       <h2 style={{ marginBottom: "20px", fontSize: "40px" }}>Our Members</h2>
       <div className={styles.members}>
         {data.map((el) => (
-          <Member image={el.image} name={el.name} desc={el.desc} />
+          <Member image={el.image} name={el.name} desc={el.desc} key={el.id} />
         ))}
       </div>
     </section>

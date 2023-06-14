@@ -5,12 +5,12 @@ const Company = (props) => {
   return (
     <section className={styles.portfolio}>
       <div className={styles.imagesect}>
-        <img src={props.image} alt="" class={styles.company_logo} />
+        <img src={props.image} alt="" className={styles.company_logo} />
       </div>
       <div className={styles.textsect}>
         <h5>{props.title.toUpperCase()}</h5>
-        <a href={props.link}>{props.link.toLowerCase()}</a>
         <p>{props.desc}</p>
+        <a href={props.link}>{props.link.toLowerCase()}</a>
       </div>
     </section>
   );
@@ -26,6 +26,7 @@ const Portfolio = () => {
           title={el.title}
           link={el.link}
           desc={el.desc}
+          key={el.id}
         />
       ))}
     </>

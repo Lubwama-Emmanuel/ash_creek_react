@@ -1,19 +1,36 @@
 .contact_con {
-  /* width: 1000px; */
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 30px;
+  align-items: flex-start; */
+  /* gap: 10px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 90px;
+}
+.company_info {
+  font-size: 18px;
+  /* border: 2px solid peru; */
+}
+.company_info h2 {
+  font-family: "TiemposText", Sans-serif;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  line-height: 45px;
+  letter-spacing: normal;
 }
 
-.company_form {
-  width: 500px;
+.company_info p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.company_info label {
+  margin-left: 10px;
+  line-height: 25px;
 }
 
 .company_form input {
   width: 100%;
-  background-color: rgb(238, 235, 235);
+  background-color: rgba(0, 0, 0, 0.04);
   border: none;
   box-sizing: border-box;
   padding: 10px 15px;

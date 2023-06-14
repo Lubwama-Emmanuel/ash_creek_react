@@ -4,22 +4,22 @@ const data = [
   {
     id: 1,
     item: "Home",
-    link: "index.html",
+    link: "#top",
   },
   {
     id: 2,
     item: "Investments",
-    link: "shop.html",
+    link: "#investment",
   },
   {
     id: 3,
     item: "Who we are",
-    link: "blog.html",
+    link: "#who_are_we",
   },
   {
     id: 4,
     item: "Contact Us",
-    link: "contact.html",
+    link: "#contact_us",
   },
 ];
 
@@ -36,11 +36,11 @@ const List = ({ item, link }) => {
 
 const Header = () => {
   return (
-    <section className={styles.header}>
+    <section className={styles.header} id="#top">
       <div>
         <ul className={styles.navbar}>
           {data.map((el) => (
-            <List item={el.item} link={el.link} />
+            <List item={el.item} link={el.link} key={el.id} />
           ))}
         </ul>
       </div>
