@@ -10,7 +10,9 @@ const Company = (props) => {
       <div className={styles.textsect}>
         <h5>{props.title.toUpperCase()}</h5>
         <p>{props.desc}</p>
-        <a href={props.link}>{props.link.toLowerCase()}</a>
+        <a href={props.link} className={styles.company_link} target="_blank">
+          {props.link.toLowerCase()}
+        </a>
       </div>
     </section>
   );

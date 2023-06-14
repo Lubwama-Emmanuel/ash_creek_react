@@ -36,9 +36,10 @@
   margin-bottom: 10px;
 }
 .textsect a {
+  text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color: rgb(144, 144, 170);
+  color: #868e96;
 }
 .textsect p {
   font-size: 16px;
@@ -49,4 +50,8 @@
 
 .company_logo {
   width: 100%;
+}
+
+.company_link:hover {
+  color: #1971c2;
 }
