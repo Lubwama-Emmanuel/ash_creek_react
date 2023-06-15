@@ -36,7 +36,7 @@ const List = ({ item, link }) => {
 
 const Header = () => {
   return (
-    <section className={styles.header} id="#top">
+    <header className={styles.header} id="#top">
       <div>
         <ul className={styles.navbar}>
           {data.map((el) => (
@@ -44,7 +44,7 @@ const Header = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </header>
   );
 };
 

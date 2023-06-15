@@ -36,6 +36,7 @@ const Portfolio = () => {
           key={el.id}
         />
       ))}
+      {/* <Separator /> */}
     </>
   );
 };

@@ -1,14 +1,10 @@
 import styles from "./Investments.module.css";
+import Separator from "./Seperator";
 
 const Investments = () => {
   return (
-    <>
-      <div
-        style={{
-          margin: "25px",
-        }}
-        id="investment"
-      ></div>
+    <section id="investment">
+      <Separator height="48px" />
       <div className={styles.third}>
         <div className={styles.text_container3}>
           <h3> Investments </h3>
@@ -28,7 +24,7 @@ const Investments = () => {
         </div>
         <img src="growing_plants.jpg" alt="" className={styles.image3} />
       </div>
-    </>
+    </section>
   );
 };
 

@@ -1,5 +1,8 @@
 .members_con {
-  margin: 90px;
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-right: 90px;
+  /* margin-bottom: 20px; */
 }
 
 .members {

@@ -1,4 +1,5 @@
 import styles from "./Contact.module.css";
+import Separator from "./Seperator";
 
 const data = [
   {
@@ -87,9 +88,12 @@ const CompanyForm = () => {
 
 const Contact = () => {
   return (
-    <section className={styles.contact_con} id="contact_us">
-      <Information />
-      <CompanyForm />
+    <section id="contact_us">
+      <Separator height="75px" />
+      <div className={styles.contact_con} id="contact_us">
+        <Information />
+        <CompanyForm />
+      </div>
     </section>
   );
 };

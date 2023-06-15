@@ -11,6 +11,15 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* .header {
+  position: fixed;
+  padding: 24px 20px;
+  z-index: 999;
+  width: 100%;
+  background-color: black;
+  top: 0;
+} */
+
 .navbar {
   display: flex;
   align-items: right;
@@ -32,11 +41,7 @@
   transition: 0.3s, ease;
 }
 
-/* .listLink:hover,
-:active {
-  color: #3cb371;
-} */
-
-.navbar li a:hover a:active {
+.listLink:hover,
+.listLink:active {
   color: #3cb371;
 }
