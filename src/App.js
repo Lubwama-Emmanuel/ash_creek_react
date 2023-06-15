@@ -47,7 +47,8 @@ function App() {
         }}
         expires={30}
       >
-        This site uses cookies for Enhanced experience.
+        We use cookies to provide necessary website functionality, improve your
+        experience and analyze our traffic.
       </CookieConsent>
     </div>
   );
