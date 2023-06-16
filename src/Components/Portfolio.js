@@ -3,7 +3,7 @@ import data from "../investments";
 
 const Company = (props) => {
   return (
-    <section className={styles.portfolio}>
+    <div className={styles.portfolio}>
       <div className={styles.imagesect}>
         <img src={props.image} alt="" className={styles.company_logo} />
       </div>
@@ -19,7 +19,7 @@ const Company = (props) => {
           {props.link.toLowerCase()}
         </a>
       </div>
-    </section>
+    </div>
   );
 };
 
