@@ -1,7 +1,4 @@
 .header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: right;
   padding: 24px 20px;
   background: #f1f1f1;
   z-index: 999;
@@ -35,4 +32,20 @@
 .listLink:hover,
 .listLink:active {
   color: #3cb371;
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  .header {
+    /* background-color: red; */
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+  }
 }

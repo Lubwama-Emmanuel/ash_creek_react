@@ -38,3 +38,27 @@
   max-height: 350px;
   height: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  /*for first section*/
+  .container {
+    flex-direction: column;
+    align-items: center;
+    /* padding: 130px 165px; */
+  }
+  .text_container {
+    width: 100%;
+    margin: 20px auto;
+    position: static;
+    height: auto;
+  }
+  .image {
+    margin: 0;
+  }
+}
