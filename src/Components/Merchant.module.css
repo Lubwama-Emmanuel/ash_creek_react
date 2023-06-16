@@ -12,7 +12,7 @@
   position: absolute;
   margin-top: 150px; /*Adjust this value to move the text up or down*/
   z-index: 1;
-  height: 130px;
+  height: 168px;
   width: 500px;
   margin-left: 300px;
 }
@@ -24,7 +24,7 @@
   padding: 2px;
 }
 .text_container p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #0a0a0a;
   text-align: justify;
