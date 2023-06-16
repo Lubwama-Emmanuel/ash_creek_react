@@ -4,7 +4,11 @@ import businessModel from "../businessModel.jpg";
 const BusinessModel = () => {
   return (
     <section className={styles.image_container}>
-      <img src={businessModel} alt="business people agreeing" />
+      <img
+        src={businessModel}
+        alt="business people agreeing"
+        className={styles.image}
+      />
       <div className={styles.text_container2}>
         <h3>Business development </h3>
         <p>

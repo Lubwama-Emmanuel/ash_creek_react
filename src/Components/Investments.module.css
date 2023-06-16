@@ -39,3 +39,23 @@
   width: 700px; /* Adjust the desired width */
   height: 350px;
 }
+
+@media only screen and (max-width: 768px) {
+  /*for third section*/
+  .third {
+    flex-direction: column;
+    padding: 60px 15px;
+  }
+
+  .text-container3 {
+    position: static;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .image3 {
+    margin: 20px auto;
+    width: 100%;
+  }
+}

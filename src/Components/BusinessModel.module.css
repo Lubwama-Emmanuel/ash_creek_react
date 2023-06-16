@@ -33,3 +33,22 @@
   font-weight: 600;
   text-align: justify;
 }
+
+@media only screen and (max-width: 768px) {
+  /*for second section*/
+  .image {
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  .image_container {
+    padding: 30px 15px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .text_container2 {
+    position: static;
+    transform: none;
+    margin: 20px auto;
+  }
+}
