@@ -13,7 +13,6 @@
 
 .member {
   width: 273px;
-  /* border: 3px solid red; */
   text-align: left;
 }
 
@@ -47,4 +46,23 @@
 
 #read:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .members_con {
+    /* background-color: red; */
+    margin: 0;
+  }
+
+  .members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .member {
+    /* background-color: red; */
+    width: 380px;
+  }
 }
