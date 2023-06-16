@@ -30,9 +30,7 @@ const Member = (props) => {
     <div className={styles.member}>
       <img src={props.image} alt={props.name} className={styles.member_image} />
       <div className={styles.member_info}>
-        <p className={styles.member_name}>
-          <strong>{props.name}</strong>
-        </p>
+        <p className={styles.member_name}>{props.name}</p>
         <p className={styles.member_position}>MANAGING DIRECTOR</p>
       </div>
       <ReadMore v={props.desc} />
@@ -43,7 +41,7 @@ const Member = (props) => {
 const Members = () => {
   return (
     <section className={styles.members_con}>
-      <h2 style={{ marginBottom: "20px", fontSize: "40px" }}>Our Members</h2>
+      <h2 style={{ marginBottom: "20px", fontSize: "42px" }}>Our Members</h2>
       <div className={styles.members}>
         {data.map((el) => (
           <Member image={el.image} name={el.name} desc={el.desc} key={el.id} />

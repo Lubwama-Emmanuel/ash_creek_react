@@ -20,12 +20,16 @@
 .member_image {
   width: 100%;
   display: block;
+  border-radius: 9px;
 }
 
 .member_info {
   margin: 10px auto;
 }
 
+.member_name {
+  font-weight: 700;
+}
 .text {
   display: inline;
   width: 100%;
