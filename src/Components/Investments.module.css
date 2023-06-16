@@ -15,7 +15,7 @@
   position: absolute;
   margin-top: -245px; /*Adjust this value to move the text up or down*/
   z-index: 1;
-  height: 195px;
+  height: 320px;
   width: 600px;
   margin-left: 160px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -28,7 +28,7 @@
   padding: 2px;
 }
 .text_container3 p {
-  font-size: 16px;
+  /* font-size: 14px; */
   font-weight: 400;
   color: #0a0a0a;
   text-align: justify;

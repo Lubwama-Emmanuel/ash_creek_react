@@ -29,7 +29,7 @@
 .text {
   display: inline;
   width: 100%;
-  line-height: 25px;
+  line-height: 1.5;
 }
 
 .read-or-hide {

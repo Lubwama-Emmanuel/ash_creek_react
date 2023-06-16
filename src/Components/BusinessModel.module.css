@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px 15px;
-  margin-bottom: 10px;
+  margin-bottom: 120px;
 }
 
 .text_container2 {
@@ -21,7 +21,7 @@
 .text_container2 p {
   margin: 0;
   color: #1a1a1a;
-  font-size: 16px;
+  /* font-size: 14px; */
   font-weight: 400;
   text-align: justify;
 }

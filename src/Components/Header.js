@@ -13,7 +13,7 @@ const data = [
   },
   {
     id: 3,
-    item: "Who we are",
+    item: "Who We Are",
     link: "#who_are_we",
   },
   {
