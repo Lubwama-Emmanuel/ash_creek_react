@@ -60,6 +60,7 @@
 @media only screen and (max-width: 768px) {
   .fourth {
     flex-direction: column-reverse;
+    padding: 20px 15px;
   }
   .text_container4 {
     position: relative;

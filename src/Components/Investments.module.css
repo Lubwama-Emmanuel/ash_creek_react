@@ -44,7 +44,7 @@
   /*for third section*/
   .third {
     flex-direction: column;
-    padding: 60px 15px;
+    padding: 0 15px;
   }
 
   .text_container3 {
