@@ -47,10 +47,10 @@
     padding: 60px 15px;
   }
 
-  .text-container3 {
-    position: static;
-    margin: 20px auto;
-    width: 100%;
+  .text_container3 {
+    position: relative;
+    width: auto;
+    margin: 0;
     height: auto;
   }
 

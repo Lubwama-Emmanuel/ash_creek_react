@@ -11,6 +11,7 @@
   max-height: 600px;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .text_container4 {
@@ -54,4 +55,18 @@
   list-style-type: disc;
   margin-left: 20px;
   padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fourth {
+    flex-direction: column-reverse;
+  }
+  .text_container4 {
+    position: relative;
+    transform: none;
+    width: auto;
+    height: auto;
+    left: auto;
+    margin-bottom: 20px;
+  }
 }

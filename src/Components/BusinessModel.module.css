@@ -44,6 +44,7 @@
     padding: 30px 15px;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .text_container2 {

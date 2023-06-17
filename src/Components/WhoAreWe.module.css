@@ -68,3 +68,24 @@
 .list {
   columns: 2;
 }
+
+@media only screen and (max-width: 768px) {
+  .fifth {
+    flex-direction: column-reverse;
+    padding-top: 5px;
+  }
+
+  .text_container5 {
+    position: relative;
+    transform: none;
+    width: auto;
+    height: auto;
+    left: auto;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .fifth img {
+    width: 100%;
+  }
+}
