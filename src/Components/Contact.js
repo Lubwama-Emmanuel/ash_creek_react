@@ -80,7 +80,15 @@ const CompanyForm = () => {
         <br></br>
         <input type="text" name="Message" id={styles.message_input} />
         <br></br>
-        <button className={styles.send_btn}>SEND</button>
+        <button
+          type="submit"
+          className={styles.send_btn}
+          onClick={function success() {
+            console.log("worked");
+          }}
+        >
+          SEND
+        </button>
       </form>
     </div>
   );
