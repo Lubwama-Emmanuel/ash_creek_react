@@ -9,7 +9,6 @@ const Company = (props) => {
       </div>
       <div className={styles.textsect}>
         <h5>{props.title.toUpperCase()}</h5>
-        <p>{props.desc}</p>
         <a
           href={props.link}
           className={styles.company_link}
@@ -18,6 +17,7 @@ const Company = (props) => {
         >
           {props.link.toLowerCase()}
         </a>
+        <p>{props.desc}</p>
       </div>
     </div>
   );
@@ -25,7 +25,7 @@ const Company = (props) => {
 
 const Portfolio = () => {
   return (
-    <>
+    <section className={styles.section_portfolio}>
       <h1 className={styles.heading}> portfolio</h1>
       {data.map((el) => (
         <Company
@@ -37,7 +37,7 @@ const Portfolio = () => {
         />
       ))}
       {/* <Separator /> */}
-    </>
+    </section>
   );
 };
 

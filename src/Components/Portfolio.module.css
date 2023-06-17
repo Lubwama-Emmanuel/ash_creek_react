@@ -35,7 +35,7 @@
 .textsect h5 {
   font-size: 23px;
   font-weight: 600;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .textsect a {
   text-decoration: none;

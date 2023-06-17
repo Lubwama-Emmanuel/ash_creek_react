@@ -9,7 +9,6 @@ import WhoAreWe from "./Components/WhoAreWe";
 import Members from "./Components/Members";
 import Contact from "./Components/Contact";
 
-import CookieConsent from "react-cookie-consent";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -27,30 +26,6 @@ function App() {
       <Members />
       <Contact />
       <Footer />
-      <CookieConsent
-        debug={true}
-        enableDeclineButton
-        flipButtons
-        buttonText="Accept"
-        declineButtonText="Decline"
-        buttonStyle={{
-          padding: "12px",
-          fontSize: "16px",
-          backgroundColor: "#3CB371",
-        }}
-        declineButtonStyle={{
-          padding: "12px",
-          fontSize: "16px",
-        }}
-        style={{
-          opacity: "0.9",
-          // backgroundColor: "",
-        }}
-        expires={30}
-      >
-        We use cookies to provide necessary website functionality, improve your
-        experience and analyze our traffic.
-      </CookieConsent>
     </div>
   );
 }

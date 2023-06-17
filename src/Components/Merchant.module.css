@@ -8,11 +8,11 @@
 
 .text_container {
   background-color: white;
-  padding: 5px 25px;
+  padding: 18px 20px;
   position: absolute;
   margin-top: 100px; /* Adjust this value to move the text up or down */
   z-index: 1;
-  height: 212px;
+  /* height: 212px; */
   width: 530px;
   margin-left: 250px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -24,6 +24,7 @@
   color: #000;
   text-transform: capitalize;
   padding: 2px;
+  margin-bottom: 13px;
 }
 .text_container p {
   /* font-size: 14px; */
