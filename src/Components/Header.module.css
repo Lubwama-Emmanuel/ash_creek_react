@@ -36,7 +36,6 @@
 
 @media only screen and (max-width: 980px) {
   .header {
-    background-color: yellow;
     flex-direction: column;
   }
   .navbar {
