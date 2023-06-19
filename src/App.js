@@ -8,15 +8,13 @@ import Portfolio from "./Components/Portfolio";
 import WhoAreWe from "./Components/WhoAreWe";
 import Members from "./Components/Members";
 import Contact from "./Components/Contact";
+import styles from "./App.module.css";
 
 import Footer from "./Components/Footer";
 
-function App() {
+function Main() {
   return (
-    <div className="App">
-      <Header />
-      {/* <MobileMenu /> */}
-      <Hero />
+    <main className={styles.main}>
       <Merchant />
       <BusinessModel />
       <Investments />
@@ -25,6 +23,16 @@ function App() {
       <WhoAreWe />
       <Members />
       <Contact />
+    </main>
+  );
+}
+
+function App() {
+  return (
+    <div className={styles.App}>
+      <Header />
+      <Hero />
+      <Main />
       <Footer />
     </div>
   );

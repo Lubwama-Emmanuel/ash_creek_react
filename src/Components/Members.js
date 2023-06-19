@@ -41,7 +41,7 @@ const Member = (props) => {
 const Members = () => {
   return (
     <section className={styles.members_con}>
-      <h2 style={{ marginBottom: "20px", fontSize: "42px" }}>Our Members</h2>
+      <h2 style={{ marginBottom: "60px", fontSize: "42px" }}>Our Members</h2>
       <div className={styles.members}>
         {data.map((el) => (
           <Member image={el.image} name={el.name} desc={el.desc} key={el.id} />

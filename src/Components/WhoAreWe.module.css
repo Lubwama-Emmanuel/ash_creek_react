@@ -20,14 +20,14 @@
 
 .text_container5 {
   position: absolute;
-  top: 35%; /*changed this*/
-  left: 50%; /*changed this*/
+  top: 31%; /*changed this*/
+  left: 38.6%; /*changed this*/
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 18px 20px;
   margin-top: 30px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-  width: 470px;
+  width: 592px;
   height: auto;
   border-radius: 10px;
 }
@@ -69,7 +69,7 @@
   columns: 2;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
   .fifth {
     flex-direction: column-reverse;
     padding-top: 5px;

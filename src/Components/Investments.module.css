@@ -1,4 +1,7 @@
 /* third section */
+/* .investments {
+  background-color: red;
+} */
 .third {
   position: relative;
   display: flex;
@@ -7,7 +10,8 @@
   padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #f1f1f1;
+  margin-bottom: 30px;
+  /* background-color: #f1f1f1; */
 }
 .text_container3 {
   background-color: white;
@@ -28,12 +32,14 @@
   text-transform: capitalize;
   margin-bottom: 13px;
 }
+
 .text_container3 p {
   /* font-size: 14px; */
   font-weight: 400;
   color: #0a0a0a;
   text-align: justify;
 }
+
 .image3 {
   margin-left: 450px;
   width: 700px; /* Adjust the desired width */
@@ -57,5 +63,15 @@
   .image3 {
     margin: 20px auto;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1218px) {
+  .text_container3 {
+    margin-left: 42px;
+  }
+
+  .image3 {
+    margin-left: 260px;
   }
 }

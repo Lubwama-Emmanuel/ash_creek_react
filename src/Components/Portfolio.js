@@ -5,7 +5,9 @@ const Company = (props) => {
   return (
     <div className={styles.portfolio}>
       <div className={styles.imagesect}>
-        <img src={props.image} alt="" className={styles.company_logo} />
+        <a href={props.link} alt={props.title} target="_blank" rel="noreferrer">
+          <img src={props.image} alt="" className={styles.company_logo} />
+        </a>
       </div>
       <div className={styles.textsect}>
         <h5>{props.title.toUpperCase()}</h5>
@@ -25,17 +27,19 @@ const Company = (props) => {
 
 const Portfolio = () => {
   return (
-    <section className={styles.section_portfolio}>
-      <h1 className={styles.heading}> portfolio</h1>
-      {data.map((el) => (
-        <Company
-          image={el.image}
-          title={el.title}
-          link={el.link}
-          desc={el.desc}
-          key={el.id}
-        />
-      ))}
+    <section className={styles.sec_portfolio}>
+      <h1 className={styles.heading}>Portfolio</h1>
+      <div className={styles.section_portfolio}>
+        {data.map((el) => (
+          <Company
+            image={el.image}
+            title={el.title}
+            link={el.link}
+            desc={el.desc}
+            key={el.id}
+          />
+        ))}
+      </div>
       {/* <Separator /> */}
     </section>
   );

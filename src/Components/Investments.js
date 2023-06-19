@@ -3,8 +3,8 @@ import Separator from "./Seperator";
 
 const Investments = () => {
   return (
-    <section id="investment">
-      <Separator height="85px" color="#f1f1f1" />
+    <section id="investment" className={styles.investments}>
+      <Separator height="85px" />
       <div className={styles.third}>
         <div className={styles.text_container3}>
           <h3> Investments </h3>

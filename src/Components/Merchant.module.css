@@ -40,7 +40,7 @@
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
   html,
   body {
     width: 100%;
@@ -61,5 +61,14 @@
   }
   .image {
     margin: 0;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1218px) {
+  .text_container {
+    margin-left: 80px;
+  }
+  .image {
+    margin-left: 200px;
   }
 }

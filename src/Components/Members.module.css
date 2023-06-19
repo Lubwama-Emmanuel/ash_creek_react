@@ -1,7 +1,7 @@
 .members_con {
   margin-top: 90px;
   margin-left: 90px;
-  margin-right: 90px;
+  margin-right: 84px;
   /* margin-bottom: 20px; */
 }
 
@@ -64,5 +64,17 @@
   .member {
     /* background-color: red; */
     width: 355px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1218px) {
+  .members {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .members_con {
+    margin-left: 70px;
+    margin-right: 0;
   }
 }

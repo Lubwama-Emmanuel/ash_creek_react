@@ -1,9 +1,13 @@
 .heading {
   color: #000;
   font-size: 35px;
-  text-transform: uppercase;
-  text-align: center;
   padding-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.sec_portfolio {
+  margin: 10px 170px;
 }
 .portfolio {
   display: flex;
@@ -58,10 +62,10 @@
   color: #1971c2;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
   .portfolio {
     flex-direction: column;
-    /* padding: 15px; */
+    padding: 0px;
   }
 
   .textsect {
@@ -70,5 +74,9 @@
   }
   .imagesect {
     margin-bottom: 10px;
+  }
+
+  .sec_portfolio {
+    margin: 0;
   }
 }

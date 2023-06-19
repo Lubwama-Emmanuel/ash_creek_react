@@ -1,11 +1,15 @@
 /* second section */
+
+.sec_business {
+  background-color: #f1f1f1;
+  height: 830px;
+}
 .image_container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 15px;
-  margin-bottom: 120px;
 }
 
 .text_container2 {
@@ -51,5 +55,9 @@
     position: static;
     transform: none;
     margin: 20px auto;
+  }
+
+  .sec_business {
+    height: auto;
   }
 }
