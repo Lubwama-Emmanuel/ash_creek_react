@@ -12,6 +12,7 @@
   display: flex;
   align-items: right;
   justify-content: right;
+  position: relative;
 }
 
 .listItem {
@@ -34,11 +35,29 @@
   color: #3cb371;
 }
 
+.menu_btn {
+  position: absolute;
+  display: none;
+  border: none;
+  right: 50%;
+  top: -7px;
+  color: #1a1a1a;
+  font-size: 40px;
+}
+
 @media only screen and (max-width: 980px) {
   .header {
     flex-direction: column;
   }
   .navbar {
     flex-direction: column;
+  }
+
+  .listItem {
+    padding: 10px 0;
+  }
+
+  .menu_btn {
+    display: block;
   }
 }

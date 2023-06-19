@@ -1,4 +1,6 @@
+import { useState } from "react";
 import styles from "./Header.module.css";
+import { useEffect } from "react";
 
 const data = [
   {
@@ -35,14 +37,39 @@ const List = ({ item, link }) => {
 };
 
 const Header = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const handleMenu = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
+  useEffect(() => {
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", changeWidth);
+
+    return () => {
+      window.removeEventListener("resize", changeWidth);
+    };
+  });
+
   return (
     <header className={styles.header} id="#top">
       <div>
-        <ul className={styles.navbar}>
-          {data.map((el) => (
-            <List item={el.item} link={el.link} key={el.id} />
-          ))}
-        </ul>
+        {(toggleMenu || screenWidth > 980) && (
+          <ul className={styles.navbar}>
+            {data.map((el) => (
+              <List item={el.item} link={el.link} key={el.id} />
+            ))}
+          </ul>
+        )}
+
+        <button className={styles.menu_btn} onClick={handleMenu}>
+          <i class="fa fa-bars"></i>
+        </button>
       </div>
     </header>
   );
