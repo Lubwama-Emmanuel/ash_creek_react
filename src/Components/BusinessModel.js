@@ -16,8 +16,8 @@ const BusinessModel = () => {
             Especially for startups, most entrepreneurs have a keen eye for
             market needs, product viability and have built a workable
             technology, product, or solution. But not all of them have a
-            competitive advantage in distribution. And that makes all the
-            difference. <br></br>
+            competitive advantage in distribution.<br></br>
+            <br></br>And that makes all the difference. <br></br>
             <br></br>
             Where needed, Ash Creek members roll up their sleeves to make warm
             introductions and/or to follow through to enterprise sales.

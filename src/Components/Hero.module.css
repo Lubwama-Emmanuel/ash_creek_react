@@ -1,8 +1,8 @@
 .hero {
-  background: url(../../public/hero.jpg);
-  height: 70vh;
+  background: url(../../public/hero_2.jpg);
+  height: 80vh;
   width: 100%;
-  background-position: bottom 5% right 0%;
+  background-position: bottom 60% right 0%;
   background-size: cover;
   padding: 0 80px;
   display: flex;
