@@ -5,7 +5,7 @@ const Merchant = () => {
   return (
     <section className={styles.container}>
       <div className={styles.text_container}>
-        <h3>A unique merchant bank</h3>
+        <h2>A unique merchant bank</h2>
         <p>
           Ash Creek is a boutique Merchant Bank dedicated to assisting
           businesses who have a clear vision of their goals and objectives.{" "}

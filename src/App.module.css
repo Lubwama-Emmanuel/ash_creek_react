@@ -1,4 +1,7 @@
-/* .main {
-  background-color: red;
-  margin: 0 30px;
-} */
+@media only screen and (min-width: 1380px) {
+  .main {
+    /* background-color: red; */
+    width: 1366px;
+    margin: auto;
+  }
+}

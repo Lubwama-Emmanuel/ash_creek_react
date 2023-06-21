@@ -28,7 +28,7 @@ const Company = (props) => {
 const Portfolio = () => {
   return (
     <section className={styles.sec_portfolio}>
-      <h1 className={styles.heading}>Portfolio</h1>
+      <h2 className={styles.heading}>Portfolio</h2>
       <div className={styles.section_portfolio}>
         {data.map((el) => (
           <Company

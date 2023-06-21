@@ -19,7 +19,7 @@
   position: absolute;
   margin-top: -355px; /*Adjust this value to move the text up or down*/
   z-index: 1;
-  height: 320px;
+  /* height: 320px; */
   width: 600px;
   margin-left: 160px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -45,12 +45,19 @@
   width: 800px; /* Adjust the desired width */
   height: 400px;
 }
+.separator {
+  height: 140px;
+}
 
 @media only screen and (max-width: 980px) {
   /*for third section*/
   .third {
     flex-direction: column;
     padding: 0 15px;
+  }
+
+  .separator {
+    height: 45px;
   }
 
   .text_container3 {
@@ -63,6 +70,7 @@
   .image3 {
     margin: 20px auto;
     width: 100%;
+    height: auto;
   }
 }
 

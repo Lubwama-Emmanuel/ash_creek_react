@@ -1,11 +1,15 @@
 .fourth {
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 15px;
   background-color: #f1f1f1;
   height: 780px;
+}
+
+.img_div {
+  position: relative;
 }
 .fourth img {
   max-width: 1000px;
@@ -18,7 +22,7 @@
 .text_container4 {
   position: absolute;
   top: 49%;
-  left: 65%;
+  left: 600px;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 18px 20px;
@@ -59,8 +63,8 @@
 
 @media only screen and (max-width: 980px) {
   .fourth {
-    flex-direction: column-reverse;
-    padding: 20px 15px;
+    /* flex-direction: column-reverse; */
+    /* padding: 20px 15px; */
     height: auto;
   }
   .text_container4 {

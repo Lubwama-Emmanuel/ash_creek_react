@@ -4,10 +4,10 @@ import Separator from "./Seperator";
 const Investments = () => {
   return (
     <section id="investment" className={styles.investments}>
-      <Separator height="85px" />
+      <div className={styles.separator}></div>
       <div className={styles.third}>
         <div className={styles.text_container3}>
-          <h3> Investments </h3>
+          <h2> Investments </h2>
           <p>
             Most of our investments have been made in conjunction with family
             offices and other investment groups. It is not unusual for us to

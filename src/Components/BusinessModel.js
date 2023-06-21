@@ -11,7 +11,7 @@ const BusinessModel = () => {
           className={styles.image}
         />
         <div className={styles.text_container2}>
-          <h3>Business development </h3>
+          <h2>Business development </h2>
           <p>
             Especially for startups, most entrepreneurs have a keen eye for
             market needs, product viability and have built a workable

@@ -8,7 +8,7 @@ const WhoAreWe = () => {
       <div className={styles.fifth}>
         <img src="places.png" alt="Your" />
         <div className={styles.text_container5}>
-          <h3> Who We Are </h3>
+          <h2> Who We Are </h2>
           <p>
             We are 25+ business leaders with over 1,000 cumulative years of
             leadership experience running businesses across a broad array of

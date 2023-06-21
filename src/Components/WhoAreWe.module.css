@@ -20,12 +20,12 @@
 
 .text_container5 {
   position: absolute;
-  top: 31%; /*changed this*/
+  /* top: 31%; changed this */
   left: 38.6%; /*changed this*/
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 18px 20px;
-  margin-top: 30px;
+  margin-top: 40px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   width: 592px;
   height: auto;
@@ -61,7 +61,7 @@
 }
 .text_container5 ul {
   list-style-type: disc;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding-left: 20px;
 }
 
@@ -87,5 +87,10 @@
 
   .fifth img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .text_container5 {
   }
 }
