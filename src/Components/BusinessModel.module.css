@@ -2,14 +2,14 @@
 
 .sec_business {
   background-color: #f1f1f1;
-  height: 830px;
+  height: 840px;
 }
 .image_container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 15px;
+  padding: 60px 15px;
 }
 
 .text_container2 {

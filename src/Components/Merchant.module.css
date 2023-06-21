@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: 50px 15px;
+  padding: 60px 15px;
 }
 
 .text_container {
@@ -35,7 +35,7 @@
 .image {
   margin-left: 450px;
   width: 100%;
-  max-width: 750px; /* Adjust the desired width */
+  max-width: 800px; /* Adjust the desired width */
   max-height: 380px;
   height: auto;
 }
