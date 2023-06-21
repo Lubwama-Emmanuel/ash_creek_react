@@ -1,5 +1,4 @@
 import styles from "./Investments.module.css";
-import Separator from "./Seperator";
 
 const Investments = () => {
   return (
