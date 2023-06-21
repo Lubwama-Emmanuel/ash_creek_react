@@ -78,3 +78,21 @@
     margin-right: 0;
   }
 }
+
+@media only screen and (min-width: 880px) and (max-width: 980px) {
+  .members {
+    /* background-color: red; */
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .members_con {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .members {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}

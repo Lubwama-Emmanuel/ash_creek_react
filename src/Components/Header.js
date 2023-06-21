@@ -59,7 +59,7 @@ const Header = () => {
   return (
     <header className={styles.header} id="#top">
       <div>
-        {(toggleMenu || screenWidth > 980) && (
+        {(toggleMenu || screenWidth > 600) && (
           <ul className={styles.navbar}>
             {data.map((el) => (
               <List item={el.item} link={el.link} key={el.id} />

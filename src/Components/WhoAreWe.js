@@ -1,10 +1,10 @@
 import styles from "./WhoAreWe.module.css";
-import Separator from "./Seperator";
 
 const WhoAreWe = () => {
   return (
     <section id="who_are_we">
-      <Separator height="60px" color="#f1f1f1" />
+      {/* <Separator height="90px" color="#f1f1f1" /> */}
+      <div className={styles.separator}></div>
       <div className={styles.fifth}>
         <img src="places.png" alt="Your" />
         <div className={styles.text_container5}>

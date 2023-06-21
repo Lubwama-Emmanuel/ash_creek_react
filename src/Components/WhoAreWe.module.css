@@ -70,6 +70,11 @@
   columns: 2;
 }
 
+.separator {
+  height: 90px;
+  background-color: #f1f1f1;
+}
+
 @media only screen and (max-width: 980px) {
   .fifth {
     flex-direction: column-reverse;
@@ -88,6 +93,10 @@
 
   .fifth img {
     width: 100%;
+  }
+
+  .separator {
+    height: 60px;
   }
 }
 

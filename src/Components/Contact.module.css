@@ -76,7 +76,7 @@
   }
 }
 
-@media only screen and (min-width: 980px) and (max-width: 1218px) {
+@media only screen and (min-width: 660px) and (max-width: 1218px) {
   .contact_con {
     margin: 30px 22px;
   }

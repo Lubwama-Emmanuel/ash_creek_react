@@ -62,7 +62,7 @@
   color: #1971c2;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 668px) {
   .portfolio {
     flex-direction: column;
     padding: 0px;
@@ -78,5 +78,15 @@
 
   .sec_portfolio {
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .portfolio {
+    /* flex-direction: column; */
+    padding: 0px;
+  }
+  .sec_portfolio {
+    margin: auto 30px;
   }
 }

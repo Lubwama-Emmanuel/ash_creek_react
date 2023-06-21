@@ -38,7 +38,7 @@
   text-align: justify;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
   /*for second section*/
   .image {
     margin: 20px auto;
