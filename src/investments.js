@@ -62,13 +62,13 @@ const data = [
     desc: "Company incorporated video, and OOH advertising.  The platform incorporates the sophistication of precision targeting with premium inventory, coupled with agile creative and actionable insights. It is a product built to deliver Return on Ad Spend with simplicity and scale.",
     link: "https://infillion.com/ ",
   },
-  // {
-  //   id: 20,
-  //   image: "investments/infinity.png",
-  //   title: "Infinite reality",
-  //   desc: "The Infinite Reality is a metaverse company and social media platform. Not only are brands now able to connect directly with consumers in an immersive and engaging world, but users can capture value by creating and sharing original content from all over the world. The Infinite Reality community includes celebrities, athletes, and artists who work side-by-side with the world’s most recognized brands and governments to create a full suite of metaverse experiences and capabilities. ",
-  //   link: "https://theinfinitereality.com/ ",
-  // },
+  {
+    id: 20,
+    image: "investments/infinity_full.svg",
+    title: "Infinite reality",
+    desc: "The Infinite Reality is a metaverse company and social media platform. Not only are brands now able to connect directly with consumers in an immersive and engaging world, but users can capture value by creating and sharing original content from all over the world. The Infinite Reality community includes celebrities, athletes, and artists who work side-by-side with the world’s most recognized brands and governments to create a full suite of metaverse experiences and capabilities. ",
+    link: "https://theinfinitereality.com/ ",
+  },
   {
     id: 24,
     image: "investments/ion.png",
@@ -125,13 +125,13 @@ const data = [
     desc: "The new standard in enterprise e-commerce for liquor brands. Thirstie builds the most powerful and flexible tools to enable internet commerce. Whether you’re a large or small brand, Thirstie’s meticulously-designed APIs and unmatched functionality help you create the best possible product experience for your customers. Many of the world’s most recognized brands are scaling faster and more efficiently by building their businesses on Thirstie.",
     link: "HTTPS://THIRSTIE.COM",
   },
-  {
-    id: 15,
-    image: "investments/tsu.png",
-    title: "TSŪ",
-    desc: "Tsū is a social media platform whose users capture value by creating and sharing original content from all over the world. Our community includes celebrities, athletes, artists, and everyday people.",
-    link: "HTTPS://TSULOVERS.COM",
-  },
+  // {
+  //   id: 15,
+  //   image: "investments/tsu.png",
+  //   title: "TSŪ",
+  //   desc: "Tsū is a social media platform whose users capture value by creating and sharing original content from all over the world. Our community includes celebrities, athletes, artists, and everyday people.",
+  //   link: "HTTPS://TSULOVERS.COM",
+  // },
   {
     id: 12,
     image: "investments/safe.png",

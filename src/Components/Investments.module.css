@@ -25,8 +25,7 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
-.text_container3 h3 {
-  font-size: 23px;
+.text_container3 h2 {
   font-weight: 600;
   color: #000;
   text-transform: capitalize;
