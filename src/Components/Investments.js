@@ -1,5 +1,6 @@
 import styles from "./Investments.module.css";
 
+// Investments component
 const Investments = () => {
   return (
     <section id="investment" className={styles.investments}>

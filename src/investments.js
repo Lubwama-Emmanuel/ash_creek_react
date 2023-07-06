@@ -11,7 +11,7 @@ const data = [
     image: "investments/aw.jpg",
     title: "ALLWORKS",
     desc: "AllWork helps brands and retailers more efficiently staff their stores and respond to the challenges presented by the work preferences of Millennials. The company’s enterprise SaaS solution enables brands and retailers to source, schedule, monitor, train and evaluate their BA, freelance and in-store support, allowing them to maximize sales and reduce costs.",
-    link: "WWW.ALLWORKNOW.COM",
+    link: "http://WWW.ALLWORKNOW.COM",
   },
   {
     id: 27,
@@ -32,7 +32,7 @@ const data = [
     image: "investments/blusap.png",
     title: "BLUSAPPHIRE",
     desc: "The first and only Unified Cyber Defense Platform with Intelligent Response Automation. It’s a Platform not just another tool. BluSapphire Enhanced Detection & Response (EDR) product is an elegant and ease to use platform to address the cyber defense stack – detection, analysis, response & remediation – a single tool that utilizes AI and machine learning to span the cyber defense stack in a single pane of glass.",
-    link: "WWW.BLUSAPPHIRE.NET",
+    link: "http://WWW.BLUSAPPHIRE.NET",
   },
   {
     id: 4,
@@ -95,7 +95,7 @@ const data = [
     image: "investments/nano.png",
     title: "NANOVAPOR",
     desc: "NanoVapor Inc. offers breakthrough nanotechnologies in the industrial management of vapors from gasoline, petrochemicals, oil and its derivatives. By working at the molecular level, NanoVapor’s systems are significantly safer, faster, healthier, greener, and more cost effective than conventional methods.",
-    link: "WWW.NANOVAPOR.COM",
+    link: "https://WWW.NANOVAPOR.COM",
   },
   {
     id: 10,
@@ -165,7 +165,7 @@ const data = [
     image: "investments/zz.jpg",
     title: "ZONEFLOW",
     desc: "Zone Flow focuses on the development of reactor technologies to improve the efficiency of the production of hydrogen and syngas by the steam methane reforming (SMR) process. SMR is the dominant process worldwide for the production of hydrogen and its derivatives.",
-    link: "WWW.ZONEFLOWTECH.COM",
+    link: "http://WWW.ZONEFLOWTECH.COM",
   },
 ];
 export default data;
