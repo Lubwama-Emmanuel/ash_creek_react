@@ -3,7 +3,7 @@ const data = [
     id: 1,
     image: "investments/7AC_Logo-150x150-1 (1).png",
     title: "7AC TECHNOLOGY LLC",
-    desc: "7AC offers a new approach to air conditioning technology, developing extreme energy savings and the ability to maximize climate friendly refrigerants",
+    desc: "7AC has been acquired by Emerson.  7AC provides  new approach to air conditioning technology, developing extreme energy savings and the ability to maximize climate friendly refrigerants.",
     link: "HTTP://WWW.7ACTECH.COM",
   },
   {
@@ -36,10 +36,10 @@ const data = [
   },
   {
     id: 4,
-    image: "investments/cyber.png",
-    title: "CYBER SAFETY",
+    image: "investments/ACS-Logo.png",
+    title: "ADVANCED CYBER SAFETY",
     desc: "CSI is a state-of-the-art, high growth, cyber security company with multiple products targeted to enterprises and consumers. CSI is NOT an anti-virus vendor – CSI’s key product, EndpointLockTM, provides PREVENTION from zero-day malware. The EndpointLock product is part of FirstData’s merchant package.",
-    link: "",
+    link: "https://www.advancedcybersecurity.com/",
   },
   {
     id: 25,
