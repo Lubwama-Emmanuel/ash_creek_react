@@ -68,7 +68,7 @@ const Header = () => {
         )}
 
         <button className={styles.menu_btn} onClick={handleMenu}>
-          <i class="fa fa-bars"></i>
+          <i className="fa fa-bars"></i>
         </button>
       </div>
     </header>
