@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./Contact.module.css";
 import Separator from "./Seperator";
 
@@ -28,10 +29,27 @@ const data = [
   },
 ];
 
+const obj = {};
+
 const Checkbox = (props) => {
+  const [checked, setChecked] = useState(false);
+
+  function getCheckedValue(e, checkedValue) {
+    if (e.target.checked) {
+      setChecked((v) => !v);
+      obj.checkedValue = checkedValue;
+      console.log(obj);
+    }
+  }
+
   return (
     <div style={{ width: "100%", marginleft: "5px" }}>
-      <input type="checkbox" name={props.item} />
+      <input
+        type="checkbox"
+        name={props.item}
+        value={checked}
+        onChange={(e) => getCheckedValue(e, props.item)}
+      />
       <label>{props.item}</label>
     </div>
   );
@@ -57,34 +75,83 @@ const Information = () => {
 };
 
 const CompanyForm = () => {
+  const [name, setName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    obj.name = name;
+    obj.companyName = companyName;
+    obj.email = email;
+    obj.phone = phone;
+    obj.message = message;
+
+    // Clear States
+    setName("");
+    setCompanyName("");
+    setEmail("");
+    setMessage("");
+    setPhone("");
+  }
+
   return (
     <div className={styles.company_form}>
-      <form>
+      <form onSubmit={handleSubmit} autoComplete="off">
         <label>Name:</label>
         <br></br>
-        <input type="text" name="Name" />
+        <input
+          type="text"
+          name="Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
         <br></br>
         <label>Company Name:</label>
         <br></br>
-        <input type="text" name="Company" />
+        <input
+          type="text"
+          name="Company"
+          value={companyName}
+          onChange={(e) => setCompanyName(e.target.value)}
+        />
         <br></br>
         <label>E-Mail:</label>
         <br></br>
-        <input type="text" name="E-Mail" />
+        <input
+          type="text"
+          name="E-Mail"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <br></br>
         <label>Phone:</label>
         <br></br>
-        <input type="text" name="Phone" />
+        <input
+          type="text"
+          name="Phone"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+        />
         <br></br>
         <label>Message:</label>
         <br></br>
-        <input type="text" name="Message" id={styles.message_input} />
+        <input
+          type="text"
+          name="Message"
+          id={styles.message_input}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
         <br></br>
         <button
           type="submit"
           className={styles.send_btn}
           onClick={function success() {
             console.log("worked");
+            console.log(obj);
           }}
         >
           SEND
