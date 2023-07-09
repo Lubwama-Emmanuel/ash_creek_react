@@ -5,9 +5,20 @@ const Company = (props) => {
   return (
     <div className={styles.portfolio}>
       <div className={styles.imagesect}>
-        <a href={props.link} alt={props.title} target="_blank" rel="noreferrer">
+        {props.link ? (
+          <>
+            <a
+              href={props.link}
+              alt={props.title}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={props.image} alt="" className={styles.company_logo} />
+            </a>
+          </>
+        ) : (
           <img src={props.image} alt="" className={styles.company_logo} />
-        </a>
+        )}
       </div>
       <div className={styles.textsect}>
         <h5>{props.title.toUpperCase()}</h5>

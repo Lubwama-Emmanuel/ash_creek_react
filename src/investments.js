@@ -4,14 +4,15 @@ const data = [
     image: "investments/7AC_Logo-150x150-1 (1).png",
     title: "7AC TECHNOLOGY LLC",
     desc: "7AC has been acquired by Emerson.  7AC provides  new approach to air conditioning technology, developing extreme energy savings and the ability to maximize climate friendly refrigerants.",
-    link: "HTTP://WWW.7ACTECH.COM",
+    // link: "HTTP://WWW.7ACTECH.COM",
+    link: "https://www.emerson.com/en-us/news/corporate/7ac-acquisition",
   },
   {
-    id: 2,
-    image: "investments/aw.jpg",
-    title: "ALLWORKS",
-    desc: "AllWork helps brands and retailers more efficiently staff their stores and respond to the challenges presented by the work preferences of Millennials. The company’s enterprise SaaS solution enables brands and retailers to source, schedule, monitor, train and evaluate their BA, freelance and in-store support, allowing them to maximize sales and reduce costs.",
-    link: "http://WWW.ALLWORKNOW.COM",
+    id: 4,
+    image: "investments/ACS-Logo.png",
+    title: "ADVANCED CYBER SAFETY",
+    desc: "CSI is a state-of-the-art, high growth, cyber security company with multiple products targeted to enterprises and consumers. CSI is NOT an anti-virus vendor – CSI’s key product, EndpointLockTM, provides PREVENTION from zero-day malware. The EndpointLock product is part of FirstData’s merchant package.",
+    link: "https://www.advancedcybersecurity.com/",
   },
   {
     id: 27,
@@ -21,11 +22,20 @@ const data = [
     link: "https://www.accureacne.com/ ",
   },
   {
+    id: 2,
+    image: "investments/aw.jpg",
+    title: "ALLWORKS",
+    desc: "AllWork helps brands and retailers more efficiently staff their stores and respond to the challenges presented by the work preferences of Millennials. The company’s enterprise SaaS solution enables brands and retailers to source, schedule, monitor, train and evaluate their BA, freelance and in-store support, allowing them to maximize sales and reduce costs.",
+    link: "http://WWW.ALLWORKNOW.COM",
+  },
+
+  {
     id: 26,
     image: "investments/asenda.png",
     title: "Asenda Health",
     desc: "Acenda Health is determined to build the only connected platform in the chronic care and postacute care industry, where providers can collect, exchange, analyze and act on patient data in real time. In doing so, the company’s technology and infrastructure will have a large disruptive impact on the industry, leading to lower costs (for insurers, state Medicaid and Medicare), reduced financial risk for providers, and ultimately improve patient outcomes.",
-    link: "https://acendahealth.org/ ",
+    // link: "https://acendahealth.org/ ",
+    link: "",
   },
   {
     id: 3,
@@ -34,13 +44,7 @@ const data = [
     desc: "The first and only Unified Cyber Defense Platform with Intelligent Response Automation. It’s a Platform not just another tool. BluSapphire Enhanced Detection & Response (EDR) product is an elegant and ease to use platform to address the cyber defense stack – detection, analysis, response & remediation – a single tool that utilizes AI and machine learning to span the cyber defense stack in a single pane of glass.",
     link: "http://WWW.BLUSAPPHIRE.NET",
   },
-  {
-    id: 4,
-    image: "investments/ACS-Logo.png",
-    title: "ADVANCED CYBER SAFETY",
-    desc: "CSI is a state-of-the-art, high growth, cyber security company with multiple products targeted to enterprises and consumers. CSI is NOT an anti-virus vendor – CSI’s key product, EndpointLockTM, provides PREVENTION from zero-day malware. The EndpointLock product is part of FirstData’s merchant package.",
-    link: "https://www.advancedcybersecurity.com/",
-  },
+
   {
     id: 25,
     image: "investments/diamond.png",
@@ -99,7 +103,7 @@ const data = [
   },
   {
     id: 10,
-    image: "investments/perch-logo-768x274.png",
+    image: "investments/pingloud.png",
     title: "PING",
     desc: "“The future is voice.” ping is patented, cross platform voice technology that allows users to hear all their messages and email read aloud, when touching their device is dangerous, illegal (driving) or simply inconvenient. Software-only telematics provides drivers, parents, fleets and auto insurers, extensive driving behavior, analysis and reporting.",
     link: "HTTPS://WWW.PINGLOUD.COM",
@@ -109,7 +113,7 @@ const data = [
     image: "investments/raydiant.png",
     title: "Raydiant",
     desc: "Raydiant acquired our investment PERCH Interactive.  Raydiant is a leading in-location digital experience platform with over 200,000 devices and customers like McDonald’s, First Bank, Harvard University and Thomson Reuters.",
-    link: "(https://www.raydiant.com/) ",
+    link: "https://www.raydiant.com/",
   },
   {
     id: 13,
@@ -168,4 +172,17 @@ const data = [
     link: "http://WWW.ZONEFLOWTECH.COM",
   },
 ];
+
+// function compare(a, b) {
+//   if (a.title < b.title) {
+//     return -1;
+//   }
+//   if (a.title > b.title) {
+//     return 1;
+//   }
+//   return 0;
+// }
+// const sorted = data.sort(compare);
+// console.log(sorted);
+
 export default data;
