@@ -149,10 +149,10 @@ const CompanyForm = () => {
         <button
           type="submit"
           className={styles.send_btn}
-          onClick={function success() {
-            console.log("worked");
-            console.log(obj);
-          }}
+          // onClick={function success() {
+          //   console.log("worked");
+          //   console.log(obj);
+          // }}
         >
           SEND
         </button>
