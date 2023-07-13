@@ -30,10 +30,26 @@
   .hero {
     height: 300px;
   }
+
+  .hero button.first {
+    margin-top: 15px;
+  }
+
+  .hero button.second {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 660px) {
   .hero {
     height: auto;
+  }
+
+  .hero button.first {
+    margin-top: 15px;
+  }
+
+  .hero button.second {
+    margin-bottom: 15px;
   }
 }
