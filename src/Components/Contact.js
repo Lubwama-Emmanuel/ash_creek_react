@@ -38,7 +38,6 @@ const Checkbox = (props) => {
     if (e.target.checked) {
       setChecked((v) => !v);
       obj.checkedValue = checkedValue;
-      console.log(obj);
     }
   }
 
