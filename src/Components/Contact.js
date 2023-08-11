@@ -1,43 +1,55 @@
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import styles from "./Contact.module.css";
 import Separator from "./Seperator";
+import axios from "axios";
 
 const data = [
   {
     id: 1,
     item: "Set up a call",
+    checked: false,
   },
   {
     id: 2,
     item: "Looking for an investment",
+    checked: false,
   },
   {
     id: 3,
     item: "Looking for help with my business",
+    checked: false,
   },
   {
     id: 4,
     item: "Have a question",
+    checked: false,
   },
   {
     id: 5,
     item: "Have a 3rd-party investment",
+    checked: false,
   },
   {
     id: 6,
     item: "Interested",
+    checked: false,
   },
 ];
 
 const obj = {};
+let checkedValues = [];
 
-const Checkbox = (props) => {
-  const [checked, setChecked] = useState(false);
+const Checkbox = ({ data }) => {
+  const [isChecked, setIsChecked] = useState(false);
 
   function getCheckedValue(e, checkedValue) {
+    setIsChecked((checked) => !checked);
     if (e.target.checked) {
-      setChecked((v) => !v);
-      obj.checkedValue = checkedValue;
+      checkedValues.push(checkedValue.item);
+      obj.checkedValue = checkedValues;
     }
   }
 
@@ -45,11 +57,11 @@ const Checkbox = (props) => {
     <div style={{ width: "100%", marginleft: "5px" }}>
       <input
         type="checkbox"
-        name={props.item}
-        value={checked}
-        onChange={(e) => getCheckedValue(e, props.item)}
+        name={data}
+        checked={isChecked}
+        onChange={(e) => getCheckedValue(e, data)}
       />
-      <label>{props.item}</label>
+      <label>{data.item}</label>
     </div>
   );
 };
@@ -65,9 +77,9 @@ const Information = () => {
         We look forward to hearing from you!
       </p>
       <div style={{ paddingTop: "10px", paddingLeft: "25px" }}>
-        {data.map((el) => (
-          <Checkbox item={el.item} key={el.id} />
-        ))}
+        {data.map((el, index) => {
+          return <Checkbox data={el} key={el.id} />;
+        })}
       </div>
     </div>
   );
@@ -80,7 +92,9 @@ const CompanyForm = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  function handleSubmit(e) {
+  let notify;
+
+  async function handleSubmit(e) {
     e.preventDefault();
     obj.name = name;
     obj.companyName = companyName;
@@ -88,7 +102,42 @@ const CompanyForm = () => {
     obj.phone = phone;
     obj.message = message;
 
-    // Clear States
+    if (
+      !obj.checkedValue ||
+      !obj.name ||
+      !obj.companyName ||
+      !obj.email ||
+      !obj.phone ||
+      !obj.message
+    ) {
+      notify = () => toast.error("Some fields are missing");
+      notify();
+      return;
+    }
+
+    try {
+      const res = await axios.post(
+        "https://api.ashcreekadvisors.com/api/EmailSender/contact/newContact",
+
+        obj
+      );
+
+      if (res.statusText === "OK") {
+        console.log(obj);
+        notify = () => toast.success("Sent Successfully");
+        notify();
+        setTimeout(function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        }, 3000);
+      }
+    } catch (error) {
+      notify = () => toast.error("Check your internet");
+      notify();
+    }
+
     setName("");
     setCompanyName("");
     setEmail("");
@@ -145,17 +194,11 @@ const CompanyForm = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
         <br></br>
-        <button
-          type="submit"
-          className={styles.send_btn}
-          // onClick={function success() {
-          //   console.log("worked");
-          //   console.log(obj);
-          // }}
-        >
+        <button type="submit" className={styles.send_btn}>
           SEND
         </button>
       </form>
+      <ToastContainer />
     </div>
   );
 };

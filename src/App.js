@@ -1,3 +1,6 @@
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Across from "./Components/Across";
 import BusinessModel from "./Components/BusinessModel";
 import Header from "./Components/Header";
