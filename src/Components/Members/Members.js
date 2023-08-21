@@ -1,5 +1,5 @@
 import styles from "./Members.module.css";
-import data from "../../src/membersList";
+import data from "../../Data/membersList";
 import { useState } from "react";
 
 const ReadMore = ({ v }) => {

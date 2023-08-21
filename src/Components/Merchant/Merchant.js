@@ -1,5 +1,4 @@
 import styles from "./Merchant.module.css";
-import buildingImage from "./../buildingImage.jpg";
 
 const Merchant = () => {
   return (
@@ -17,7 +16,7 @@ const Merchant = () => {
         </p>
       </div>
       <img
-        src={buildingImage}
+        src={"others/buildingImage.jpg"}
         alt="building block with bricks"
         className={styles.image}
       />

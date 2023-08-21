@@ -1,5 +1,5 @@
 import styles from "./Portfolio.module.css";
-import data from "../investments";
+import data from "../../Data/investments";
 
 const Company = (props) => {
   return (

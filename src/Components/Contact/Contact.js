@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import styles from "./Contact.module.css";
-import Separator from "./Seperator";
+import Separator from "../ui/Seperator";
 import axios from "axios";
 
 const data = [

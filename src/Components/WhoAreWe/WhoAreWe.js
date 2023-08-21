@@ -3,10 +3,9 @@ import styles from "./WhoAreWe.module.css";
 const WhoAreWe = () => {
   return (
     <section id="who_are_we">
-      {/* <Separator height="90px" color="#f1f1f1" /> */}
       <div className={styles.separator}></div>
       <div className={styles.fifth}>
-        <img src="places.png" alt="Your" />
+        <img src="others/places.png" alt="Your" />
         <div className={styles.text_container5}>
           <h2> Who We Are </h2>
           <p>

@@ -1,12 +1,11 @@
 import styles from "./BusinessModel.module.css";
-import businessModel from "../businessModel.jpg";
 
 const BusinessModel = () => {
   return (
     <section className={styles.sec_business}>
       <div className={styles.image_container}>
         <img
-          src={businessModel}
+          src={"others/businessModel.jpg"}
           alt="business people agreeing"
           className={styles.image}
         />

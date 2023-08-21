@@ -24,7 +24,7 @@ const Investments = () => {
             <br></br>
           </p>
         </div>
-        <img src="growing_plants.jpg" alt="" className={styles.image3} />
+        <img src="others/growing_plants.jpg" alt="" className={styles.image3} />
       </div>
     </section>
   );
