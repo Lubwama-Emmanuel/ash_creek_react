@@ -11,7 +11,7 @@ const data = [
   {
     id: 2,
     item: "Investments",
-    link: "#investment",
+    link: "#investments",
   },
   {
     id: 3,
@@ -28,7 +28,6 @@ const data = [
 const List = ({ item, link }) => {
   return (
     <li className={styles.listItem}>
-      {" "}
       <a href={link} className={styles.listLink}>
         {item}
       </a>

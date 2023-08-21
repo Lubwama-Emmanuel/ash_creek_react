@@ -3,7 +3,7 @@ import styles from "./Investments.module.css";
 // Investments component
 const Investments = () => {
   return (
-    <section id="investment" className={styles.investments}>
+    <section id="investments" className={styles.investments}>
       <div className={styles.separator}></div>
       <div className={styles.third}>
         <div className={styles.text_container3}>
