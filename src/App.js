@@ -1,19 +1,18 @@
-import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import Across from "./Components/Across";
-import BusinessModel from "./Components/BusinessModel";
-import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import Investments from "./Components/Investments";
-import Merchant from "./Components/Merchant";
-import Portfolio from "./Components/Portfolio";
-import WhoAreWe from "./Components/WhoAreWe";
-import Members from "./Components/Members";
-import Contact from "./Components/Contact";
+import Across from "./Components/Across/Across";
+import BusinessModel from "./Components/BusinessModel/BusinessModel";
+import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
+import Investments from "./Components/Investments/Investments";
+import Merchant from "./Components/Merchant/Merchant";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import WhoAreWe from "./Components/WhoAreWe/WhoAreWe";
+import Members from "./Components/Members/Members";
+import Contact from "./Components/Contact/Contact";
 import styles from "./App.module.css";
 
-import Footer from "./Components/Footer";
+import Footer from "./Components/Footer/Footer";
 
 function Main() {
   return (
